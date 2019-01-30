@@ -7,6 +7,6 @@ This a front-end project development using BEM, Less, Grunt, Javascript and HTML
 - Now, go to the browser and open http://localhost:9000/index.html
 - You can now test application on browser
 
-Any problem you have with this repository please contact me
-Twitter: @cristhiamdh
-Github: @cdhenao3
+Any problem you have with this repository please contact me__
+Twitter: @cristhiamdh__
+Github: @cdhenao3__
