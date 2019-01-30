@@ -1,0 +1,140 @@
+@color-border: #e6e6e6;
+
+body{
+  height: 100vh;
+  border-width: 5px 0 5px 0;
+  border-style: solid;
+  border-color: @color-border;
+  padding-top: 10%;
+  background: rgb(249, 249, 249);
+
+  .block{
+    display:block;
+    margin: auto;
+    width: 50%;
+  } 
+}
+
+.container__alert{
+  border: 1px solid;
+  border-radius: 0.7em;
+  font-weight: bold;
+  text-shadow: 0px 0.25px white;
+  font-size: 14px;
+  display: none;
+}
+
+.container__alert--red{
+  background:#EF7575;
+  color:#A93B3B;
+  border-color: #DB5252;
+}
+
+.container__alert--green{
+  background:#5FDF9E;
+  color:#299A60;
+  border-color: #49CF8B;
+}
+
+.container__alert--right{
+  text-align: right !important;
+}
+
+.login{
+  padding: 8% 25%;
+  text-align: center;
+  box-shadow: 0px 0px 3px #a2a2a2;
+  border-collapse: collapse;
+  border-radius: 0.5em;
+}
+
+.login__title{
+  margin-bottom: 12%;
+  color: rgb(108, 106, 106);
+}
+
+.placeholder__color{
+  background: rgba(249, 244, 244, 0.8);
+  border-color: transparent;
+  box-shadow: 0px -1px 2px rgb(227, 226, 226);
+}
+
+.placeholder__color::placeholder{
+  background: rgba(249, 244, 244, 0.4);
+  padding: .25rem .55rem;
+}
+
+.button--customize{
+  border: .7px solid #0F578A;
+  background: #2993DE;
+  color: white;
+  padding: .6rem 2.3rem;
+  box-sizing: border-box;
+  font-weight: bold;
+  box-shadow: inset 0 0.5px 0 #fff;
+}
+
+.checkbox{
+  font-size: 12px;
+  color: #939797;
+  margin-top: 15px;
+}
+
+.checkbox-shadow{
+  box-shadow: inset 0 1px 0 #fff;
+  border: 2px solid #000; 
+}
+
+.repeated{
+  position: relative;
+  border: 1px solid rgba(0,0,0,.125); 
+  z-index: 2;
+  border-radius: 0.5em;
+  background: white;
+}
+
+.repeated__z1{
+  height: 17px;
+  z-index: 1;
+  bottom: 13px;
+}
+
+.repeated__z2{
+  height: 17px;
+  z-index: 0;
+  bottom: 25px;
+  box-shadow: 0px 0px 3px #b1b1b1;
+}
+
+.text__final{
+  font-weight: bold;
+  text-decoration: underline;
+  color: #787878;
+}
+
+.text__final-font{
+  font-size: 14px;
+}
+
+.text__final-font_mini{
+  font-size: 12px;
+}
+
+.text-link{
+  color: #2993DE;
+}
+
+.text__final-margin{
+  margin-top: 20px;
+}
+
+.footer{
+  text-align: center;
+  font-style: italic;
+  margin-top: 30px;
+  color: rgb(181, 176, 176);
+  font-size: 12px;
+  border-radius: 0;
+  padding: 5px 0;
+  box-shadow: 1px 1px 1px rgb(196, 195, 195);
+}

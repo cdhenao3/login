@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <title>Keyrus Login</title>
+</head>
+<body>
+  <div class="container">
+    <div id="alert" class="container__alert container__alert--red alert" role="alert">
+      <div class="container__alert--right">Digite seu email e senha</div>
+    </div>
+
+    <div id="success" class="container__alert container__alert--green alert" role="alert">
+      <div class="container__alert--right">Você foi logado com sucesso</div>
+    </div>
+
+    <div class="center-block block">
+      <div class="card repeated">
+        <div class="card-body login">
+          <h5 class="card-title login__title">Entrar na minha conta</h5>
+          <form>
+            <div class="form-group">
+              <input id="email" type="email" class="form-control form-control-sm placeholder__color" aria-describedby="emailHelp" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <input id="password" type="password" class="form-control form-control-sm placeholder__color" placeholder="Senha">
+            </div>
+            <button id="login" type="submit" class="btn button--customize">Entrar</button>
+            <div class="form-check checkbox">
+              <input type="checkbox" class="form-check-input checkbox-shadow">
+                <label class="form-check-label">Mantenha-me conectado</label>
+              </div>
+            </form>
+        </div>
+      </div>
+      <div class="repeated repeated__z1"></div>
+      <div class="repeated repeated__z2"></div>
+    </div>
+  </div>
+  <div class="text-center text__final text__final-font">Precisa de una conta? <a href="#"><span class="text-link">Inscrever-se</span></a></div>
+  <div class="text-center text-final text__final-font_mini text__final-margin">Esqueceu sua sentha? <a href="#"><span class="text-link">Clique aqui.</span></a></div>
+
+  <div class="center-block block">
+    <div class="card footer">Keyrus</div>
+  </div>  
+  
+  <script src="./src/js/index.js"></script>
+</body>
+</html>
